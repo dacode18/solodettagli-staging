@@ -28,6 +28,7 @@
         "template--16967006552308__0047ec77-28ac-408a-9dcb-5d79917ea96a-column-2",
         "template--16967006552308__0047ec77-28ac-408a-9dcb-5d79917ea96a-column-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card__info {position: absolute; top: 250px; left: 140px;}",
         "img.multicolumn-card__image {opacity: 0.5;}",
@@ -356,6 +357,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2786af36-9513-4b59-b1fc-7dd013e64826": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17018213302516__2786af36-9513-4b59-b1fc-7dd013e64826-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17018213302516__2786af36-9513-4b59-b1fc-7dd013e64826-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17018213302516__2786af36-9513-4b59-b1fc-7dd013e64826-column-1",
+        "template--17018213302516__2786af36-9513-4b59-b1fc-7dd013e64826-column-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -368,6 +412,7 @@
     "4630eb30-da9b-46a7-888e-a840c847eab7",
     "5c98f26b-de12-4d7a-8757-8f9df742ec3c",
     "02d18425-4249-4873-ba6d-d3257e81bfeb",
-    "e1a3cf96-6ef1-4c4a-8a2c-a27e49ffe216"
+    "e1a3cf96-6ef1-4c4a-8a2c-a27e49ffe216",
+    "2786af36-9513-4b59-b1fc-7dd013e64826"
   ]
 }
