@@ -1,0 +1,31 @@
+<div id="header-sd">
+  <div>
+    <h1>{{ section.settings.text-box }}</h1>
+    <h3>{{ section.settings.text }}</h3>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "header-sd",
+    "settings": [
+      {
+        "id": "text-box",
+        "type": "text",
+        "label": "Titolo",
+        "default": "Titolo"
+      }, {
+        "id": "text",
+        "type": "richtext",
+        "label": "Aggiungi testo",
+        "default": "<p>Add your text here</p>"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
