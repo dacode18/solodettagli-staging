@@ -1,0 +1,53 @@
+i {
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+i.fa-solid.fa-angles-right {
+    font-size: 30px;
+   
+}
+
+.header-container-sd{
+    height: 500px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding-left:40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-2-3{
+    width: 70%;
+    height: 500px;
+    background-color: darkgrey;
+    background-image: url('https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-1.jpg?v=1700759033');
+    margin: 0px;
+}
+
+.flex-1-3{
+    width: 30%;
+    padding-left: 10px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.row-full{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px firebrick;
+    height: 116px;
+    
+}
+
+.flex-1-3 > a {
+    text-decoration: none;
+}
