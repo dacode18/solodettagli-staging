@@ -1,8 +1,12 @@
 {% stylesheet %}
-  {{ 'section-header-sd.css' | asset_url | stylesheet_tag }}
+
 {% endstylesheet %}
 
-
+{{ 'section-header-sd.css' | asset_url | stylesheet_tag }}
+<script
+  defer="defer"
+  src="https://kit.fontawesome.com/6f2d65579a.js"
+  crossorigin="anonymous"></script>
 <div id="header-sd" class="header-sd">
   <div class="header-container-sd">
     <div class="flex-2-3">
@@ -12,28 +16,40 @@
       <a href="https://solodettagli.it" style="display: inline;">
         <div class="row-full">
           <i class="fa-solid fa-arrow-trend-up" style="color: #ae0f0a;"></i>
-          <h2>I Più richiesti</h2>
+          <div class="pulsante-header">
+            <h2>NOVITÀ</h2>
+            <p>Le nuove scoperte di Carlo</p>
+          </div>
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
       <a href="https://solodettagli.it" style="display: inline;">
         <div class="row-full">
           <i class="fa-solid fa-hand-sparkles" style="color: #ae0f0a;"></i>
-          <h2>{{ section.settings.text-box }}</h2>
+          <div class="pulsante-header">
+            <h2>KIT</h2>
+            <p>Risparmi e sei subito pronto!</p>
+          </div>
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
       <a href="https://solodettagli.it" style="display: inline;">
         <div class="row-full">
           <i class="fa-solid fa-spray-can-sparkles" style="color: #ae0f0a;"></i>
-          <h2>I nostri Kit</h2>
+          <div class="pulsante-header">
+            <h2>SOLODETTAGLI</h2>
+            <p>Direttamente dai nostri laboratori</p>
+          </div>
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
       <a href="https://solodettagli.it" style="display: inline;">
         <div class="row-full">
           <i class="fa-brands fa-youtube" style="color: #ae0f0a;"></i>
-          <h2>Il mio canale youtube</h2>
+          <div class="pulsante-header">
+            <h2>ON AIR SU YOUTUBE</h2>
+            <p>Più di 27.000 iscritti</p>
+          </div>
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
