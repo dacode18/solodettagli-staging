@@ -1,5 +1,12 @@
 {
   "sections": {
+    "25c5699a-e29c-44c0-a8a2-6d276df7e0ee": {
+      "type": "header-sd",
+      "settings": {
+        "text-box": "Titolo",
+        "text": "<p>Add your text here<\/p>"
+      }
+    },
     "0047ec77-28ac-408a-9dcb-5d79917ea96a": {
       "type": "multicolumn",
       "blocks": {
@@ -403,6 +410,7 @@
     }
   },
   "order": [
+    "25c5699a-e29c-44c0-a8a2-6d276df7e0ee",
     "0047ec77-28ac-408a-9dcb-5d79917ea96a",
     "image_banner",
     "10fdc090-651b-4e41-9ddb-ba4ac3aa1cb9",
