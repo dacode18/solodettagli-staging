@@ -1,19 +1,33 @@
 {% stylesheet %}
-
 {% endstylesheet %}
 
 {{ 'section-header-sd.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <script
   defer="defer"
   src="https://kit.fontawesome.com/6f2d65579a.js"
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
 <div id="header-sd" class="header-sd">
   <div class="header-container-sd">
-    <div class="flex-2-3">
-      <span></span>
+    <div class="slideshow">
+
+    <div class="slideshow__item" id="slideshow-item-1">
+      <div class="slide__inner">
+        <div class="slideshow__image-wrapper">
+          <img src="https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-3.jpg?v=1701095951" alt="" class="slideshow_image">
+          <img src="https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-4.jpg?v=1701095959" alt="" class="slideshow_image hidden-image">
+          <img src="https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-2.jpg?v=1701095939" alt="" class="slideshow_image hidden-image">
+          <button class="w3-button w3-black w3-display-left" id="btnPrev">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" id="btnNext">&#10095;</button>
+        </div>
+      </div>
+    </div>
+
     </div>
     <div class="flex-1-3">
-      <a href="https://solodettagli.it" style="display: inline;">
+      <a href="https://solodettagli.it">
         <div class="row-full">
           <i class="fa-solid fa-arrow-trend-up" style="color: #ae0f0a;"></i>
           <div class="pulsante-header">
@@ -23,7 +37,7 @@
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
-      <a href="https://solodettagli.it" style="display: inline;">
+      <a href="https://solodettagli.it">
         <div class="row-full">
           <i class="fa-solid fa-hand-sparkles" style="color: #ae0f0a;"></i>
           <div class="pulsante-header">
@@ -33,7 +47,7 @@
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
-      <a href="https://solodettagli.it" style="display: inline;">
+      <a href="https://solodettagli.it">
         <div class="row-full">
           <i class="fa-solid fa-spray-can-sparkles" style="color: #ae0f0a;"></i>
           <div class="pulsante-header">
@@ -43,11 +57,11 @@
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
         </div>
       </a>
-      <a href="https://solodettagli.it" style="display: inline;">
+      <a href="https://solodettagli.it">
         <div class="row-full">
           <i class="fa-brands fa-youtube" style="color: #ae0f0a;"></i>
           <div class="pulsante-header">
-            <h2>ON AIR SU YOUTUBE</h2>
+            <h2>ON YOUTUBE</h2>
             <p>Più di 27.000 iscritti</p>
           </div>
           <i class="fa-solid fa-angles-right" style="color: #ae0f0a;"></i>
@@ -57,6 +71,46 @@
     </div>
   </div>
 </div>
+
+{% javascript %}
+
+  var slideIndex = 1;
+
+  let btnNext = document.getElementById ('btnNext');
+  let btnPrev = document.getElementById ('btnPrev');
+
+  btnNext.addEventListener ("click", function () { plusDivs(1) } );
+  btnPrev.addEventListener ("click", function () { plusDivs(-1) } );
+  
+  showDivs (slideIndex);
+
+  function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+  function showDivs(currentSlide) {
+    let i;
+    var slides = document.getElementsByClassName("slideshow_image");
+    if (currentSlide > slides.length ) { slideIndex = 1; }
+    if (currentSlide < 1 ) { slideIndex = slides.length; }
+    for (i = 0; i < slides.length; i++){
+      slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+  }
+  
+  /*   let img1 = "https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-3.jpg?v=1701095951";
+    let img2 = "https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-4.jpg?v=1701095959";
+    let img3 = "https://cdn.shopify.com/s/files/1/0672/9397/0676/files/header-2.jpg?v=1701095939";
+    let slideshow = [img1, img2, img3];
+
+    let nextButton = document.getElementById ('nextButton');
+
+        nextButton.addEventListener (onclick, (e) => {
+            let nextImage = 
+  }) */
+
+{% endjavascript %}
 
 {% schema %}
   {
@@ -88,5 +142,3 @@
 {% endschema %}
 
 
-{% javascript %}
-{% endjavascript %}
