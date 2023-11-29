@@ -10,14 +10,30 @@
           "settings": {
             "show_social": true
           }
+        },
+        "2628967e-29f0-4cb6-b512-777f963bfa1d": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Chi siamo",
+            "menu": "footer"
+          }
+        },
+        "39e47712-5e43-451f-8049-f923b9775bfc": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Informazioni",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "2a266dc6-dd9e-4b51-9dfb-bd66138f1046"
+        "2a266dc6-dd9e-4b51-9dfb-bd66138f1046",
+        "2628967e-29f0-4cb6-b512-777f963bfa1d",
+        "39e47712-5e43-451f-8049-f923b9775bfc"
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
