@@ -15,14 +15,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Chi siamo",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "39e47712-5e43-451f-8049-f923b9775bfc": {
           "type": "link_list",
           "settings": {
             "heading": "Informazioni",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         }
       },
