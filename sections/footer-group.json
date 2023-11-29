@@ -24,12 +24,20 @@
             "heading": "Informazioni",
             "menu": "main-menu"
           }
+        },
+        "3a61b1fa-b068-4612-9837-0394c23ed426": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Collabora con noi",
+            "menu": "main-menu"
+          }
         }
       },
       "block_order": [
         "2a266dc6-dd9e-4b51-9dfb-bd66138f1046",
         "2628967e-29f0-4cb6-b512-777f963bfa1d",
-        "39e47712-5e43-451f-8049-f923b9775bfc"
+        "39e47712-5e43-451f-8049-f923b9775bfc",
+        "3a61b1fa-b068-4612-9837-0394c23ed426"
       ],
       "settings": {
         "color_scheme": "accent-1",
