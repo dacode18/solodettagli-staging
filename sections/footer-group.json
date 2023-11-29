@@ -5,31 +5,15 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "8f37f714-1dfa-4169-bfda-ad479c285106": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "5d27d4ee-6a19-4f20-9ecb-2fe2da7a10b1": {
+        "2a266dc6-dd9e-4b51-9dfb-bd66138f1046": {
           "type": "brand_information",
           "settings": {
             "show_social": true
           }
-        },
-        "718a6be3-d146-44ee-b23d-595817808e07": {
-          "type": "text",
-          "settings": {
-            "heading": "Solodettagli di Carlo Raimondi",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
-        "8f37f714-1dfa-4169-bfda-ad479c285106",
-        "5d27d4ee-6a19-4f20-9ecb-2fe2da7a10b1",
-        "718a6be3-d146-44ee-b23d-595817808e07"
+        "2a266dc6-dd9e-4b51-9dfb-bd66138f1046"
       ],
       "settings": {
         "color_scheme": "accent-1",
