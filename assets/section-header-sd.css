@@ -1,27 +1,19 @@
-i {
-    font-size: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+.header-sd{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  
 }
 
-i.fa-solid.fa-angles-right {
-    font-size: 30px;
-   
-}
-
-.header-container-sd{
-    width: 80%;
-    max-width: var(--page-width);
-    margin: 20px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    overflow: hidden;
+.main-content-slideshow{
+  width: 100%;
 }
 
 .flex-1-3{
-    /* height: 23%; */
+
     width: 40%;
     padding-left: 10px;
     margin: 0px auto 0px auto;
@@ -33,8 +25,6 @@ i.fa-solid.fa-angles-right {
 }
 
 .row-full{
-
-    /* height: 116px; */
     min-height: 15vh;
     background-color: whitesmoke;
     display: flex;
@@ -56,11 +46,11 @@ i.fa-solid.fa-angles-right {
 }
 
 .pulsante-header > h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 12px;
     color: black;
     padding-top:15px;
-    text-align: center;
+    text-align: left;
 }
 
 /* .pulsante-header > h2:hover {
@@ -72,19 +62,27 @@ i.fa-solid.fa-angles-right {
 .pulsante-header > p {
     line-height: 16px;
     color: black;
-    text-align: center;
+    text-align: left;
+    margin-top: 2px;
+}
+
+i {
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+i.fa-solid.fa-angles-right {
+  font-size: 30px;
+ 
 }
 
 @media only screen and (max-width: 1000px) {
-    .header-container-sd{
-        display: block;
-        padding: 0px 10px;
 
+    .header-sd{
+      display: block;
     }
-    .slideshow{
-        width: 100%;
-        aspect-ratio: 1600 / 1000;
-    }
+  
     .flex-1-3{
         width: 100%;
         flex-direction: row;
