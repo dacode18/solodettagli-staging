@@ -130,7 +130,7 @@
     "f610c434-8d8e-4537-a644-a4aa7712b529": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\nlet position = document.querySelector('h5');\nlet collection = document.querySelector('.collection');\nposition.innerHtml = \"\";\nposition.appendChild(collection);\n<\/script>",
+        "custom_liquid": "<script>\nlet position = document.querySelector('h5');\nlet collection = document.querySelector('.collection');\nposition.innerHTML = \"\";\nposition.appendChild(collection);\n<\/script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
