@@ -21,10 +21,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Vai al video",
-            "button_link_1": "",
+            "button_link_1": "#video",
             "button_style_secondary_1": false,
             "button_label_2": "Vai all'articolo",
-            "button_link_2": "",
+            "button_link_2": "#articolo",
             "button_style_secondary_2": true
           }
         }
@@ -35,12 +35,13 @@
         "template--17018213466356__bfc0cc75-3d66-4bae-958d-51625cc32fea-buttons-1"
       ],
       "settings": {
+        "image": "{{ article.image }}",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4d5f56ae-229a-46d9-a6c1-0684384c3e40",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
