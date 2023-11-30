@@ -93,7 +93,7 @@
         ".youtube-video {text-align: center; margin: auto; aspect-ratio: 16\/9;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"youtube-video\">\n<iframe width=\"90%\" height=\"90%\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/{{ article.metafields.custom.video_articolo_blog.value }}?si=YQslMJzUOa2aDjlC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div>",
+        "custom_liquid": "<div id=\"video\" class=\"youtube-video\">\n<iframe width=\"90%\" height=\"90%\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/{{ article.metafields.custom.video_articolo_blog.value }}?si=YQslMJzUOa2aDjlC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div>",
         "color_scheme": "",
         "padding_top": 16,
         "padding_bottom": 0
