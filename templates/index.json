@@ -303,7 +303,7 @@
         "blog": "guide",
         "post_limit": 3,
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "show_image": true,
         "show_date": false,
         "show_author": false,
