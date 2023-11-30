@@ -7,6 +7,7 @@
   
   .blog-articles .card-wrapper {
     width: 100%;
+    box-shadow: 5px 10px 8px #888888;
   }
 
   .main-blog > h1 {
@@ -15,12 +16,39 @@
     font-size: 5rem;
     font-weight: 900;
   }
+
+  .list-group {
+    text-align: center;
+  }
+  ul#BlogTagFilter {
+	  list-style: none;
+	  padding-top: 10px;
+  	}
+  
+  ul#BlogTagFilter li {
+	  display: inline;
+    margin: 5px;
+	}
+  
+.blog-filter {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 24px;
+}
+.tag-filter{
+  text-decoration: none;
+  color: firebrick;
+}
+.tag-filter:hover{
+  text-decoration: underline;
+  transition: 1ms;
+}
   
   @media screen and (min-width: 750px) {
     .blog-articles {
       grid-template-columns: 1fr 1fr 1fr;
-      column-gap: var(--grid-desktop-horizontal-spacing);
-      row-gap: var(--grid-desktop-vertical-spacing);
+      column-gap: calc(var(--grid-desktop-horizontal-spacing)*2);
+      row-gap: calc(var(--grid-desktop-vertical-spacing)*3);
     }
   
     .blog-articles--collage > *:nth-child(3n + 1),

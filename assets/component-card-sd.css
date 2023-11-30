@@ -113,6 +113,7 @@
   
   .card .media {
     width: 100%;
+    border-radius: 14px 14px 0px 0px;
   }
   
   .card__media {
@@ -325,7 +326,13 @@
   .card--standard > .card__content .card__information {
     padding-left: 0;
     padding-right: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    background: white;
+    border-radius: 0px 0px 14px 14px;
+    
   }
+  
   
   .card--card.card--media .card__inner .card__information,
   .card--card.card--text .card__inner,
