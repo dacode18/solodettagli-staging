@@ -48,6 +48,15 @@
         "show_text_below": true
       }
     },
+    "5e8efb29-1c3d-418f-b2cd-91112801de37": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span id=\"articolo\"><\/span>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -123,6 +132,7 @@
   },
   "order": [
     "bfc0cc75-3d66-4bae-958d-51625cc32fea",
+    "5e8efb29-1c3d-418f-b2cd-91112801de37",
     "main",
     "9cee7bb5-580d-461d-993a-553af79dec09",
     "1fe5f9da-56a8-44d0-ae59-6974eb7b6cb7"
