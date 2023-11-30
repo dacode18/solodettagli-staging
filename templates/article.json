@@ -10,13 +10,6 @@
             "heading_size": "h1"
           }
         },
-        "776e10e9-f09c-4b4a-8bd8-49e46171f4f4": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "template--17018213466356__bfc0cc75-3d66-4bae-958d-51625cc32fea-buttons-1": {
           "type": "buttons",
           "settings": {
@@ -27,12 +20,19 @@
             "button_link_2": "#articolo",
             "button_style_secondary_2": true
           }
+        },
+        "8529949c-185e-472b-a30d-56bd0847bffb": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.sottotitolo.value }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "template--17018213466356__bfc0cc75-3d66-4bae-958d-51625cc32fea-heading-1",
-        "776e10e9-f09c-4b4a-8bd8-49e46171f4f4",
-        "template--17018213466356__bfc0cc75-3d66-4bae-958d-51625cc32fea-buttons-1"
+        "template--17018213466356__bfc0cc75-3d66-4bae-958d-51625cc32fea-buttons-1",
+        "8529949c-185e-472b-a30d-56bd0847bffb"
       ],
       "settings": {
         "image": "{{ article.image }}",
