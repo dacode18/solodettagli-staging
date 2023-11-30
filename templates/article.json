@@ -87,6 +87,18 @@
       "settings": {
       }
     },
+    "bfc98ccb-eca4-4270-9942-4b3237c61c74": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".youtube-video {text-align: center; margin: auto; aspect-ratio: 16\/9;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"youtube-video\">\n<iframe width=\"90%\" height=\"90%\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/{{ article.metafields.custom.video_articolo_blog.value }}?si=YQslMJzUOa2aDjlC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
     "1fe5f9da-56a8-44d0-ae59-6974eb7b6cb7": {
       "type": "featured-collection",
       "settings": {
@@ -114,58 +126,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "bc9ff90e-b7af-4f58-bddd-ce29d86a88f3": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "f925aca5-f724-4883-a685-85b62169d2be": {
-      "type": "rich-text",
-      "blocks": {
-        "b674da67-53d2-4762-aedb-eaa3a1abd20e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ article.metafields.custom.video_articolo_blog.value }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "b674da67-53d2-4762-aedb-eaa3a1abd20e"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "bfc98ccb-eca4-4270-9942-4b3237c61c74": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".youtube-video {text-align: center; margin: auto;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"youtube-video\">\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/{{ article.metafields.custom.video_articolo_blog.value }}?si=YQslMJzUOa2aDjlC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "bfc0cc75-3d66-4bae-958d-51625cc32fea",
     "5e8efb29-1c3d-418f-b2cd-91112801de37",
     "main",
-    "1fe5f9da-56a8-44d0-ae59-6974eb7b6cb7",
-    "bc9ff90e-b7af-4f58-bddd-ce29d86a88f3",
-    "f925aca5-f724-4883-a685-85b62169d2be",
-    "bfc98ccb-eca4-4270-9942-4b3237c61c74"
+    "bfc98ccb-eca4-4270-9942-4b3237c61c74",
+    "1fe5f9da-56a8-44d0-ae59-6974eb7b6cb7"
   ]
 }
