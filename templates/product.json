@@ -207,10 +207,10 @@
     "4ee3bff7-adbf-43f5-908c-c9c268ae344d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{product.metafields.custom.videoguida}}",
+        "custom_liquid": "<div style=\"text-align:center\">{{product.metafields.custom.videoguida}}<\/div>",
         "color_scheme": "accent-1",
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 8,
+        "padding_bottom": 0
       }
     },
     "related-products": {
